@@ -1,0 +1,10 @@
+.container {
+  background-color:#ff1200;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#countdown {
+  font-size: 36px;
+  margin-top: 20px;
+}
