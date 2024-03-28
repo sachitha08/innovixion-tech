@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div id="quiz-container">
+        <div id="quiz1" class="question">
+            <h2>Question 1: What is the capital of Japan?</h2>
+            <input type="radio" name="q1" value="Tokyo"> Tokyo<br>
+            <input type="radio" name="q1" value="Beijing"> Beijing<br>
+            <input type="radio" name="q1" value="Seoul"> Seoul<br>
+        </div>
+
+        <div id="quiz2" class="question">
+            <h2>Question 2: Which planet is known as the Red Planet?</h2>
+            <input type="radio" name="q2" value="Venus"> Venus<br>
+            <input type="radio" name="q2" value="Mars"> Mars<br>
+            <input type="radio" name="q2" value="Mercury"> Mercury<br>
+        </div>
+
+        <div id="quiz3" class="question">
+            <h2>Question 3: Who wrote 'The Great Gatsby'?</h2>
+            <input type="radio" name="q3" value="F. Scott Fitzgerald"> F. Scott Fitzgerald<br>
+            <input type="radio" name="q3" value="Ernest Hemingway"> Ernest Hemingway<br>
+            <input type="radio" name="q3" value="Mark Twain"> Mark Twain<br>
+        </div>
+
+        <button onclick="submitQuiz()">Submit Quiz</button>
+
+        <div id="results"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
